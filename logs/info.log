@@ -1,0 +1,405 @@
+[2019-06-26T23:16:28.743] [INFO] default - GET Service API TEST Starts
+[2019-06-26T23:16:29.002] [INFO] default - Number of Records in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  100
+[2019-06-26T23:16:29.005] [INFO] default -  verify the response schema 
+[2019-06-26T23:16:29.178] [INFO] default - status code in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  200
+[2019-06-26T23:16:29.328] [INFO] default - response in GET Service API when querying 1 record  with url  https://jsonplaceholder.typicode.com/posts/1 is  [{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]
+[2019-06-26T23:16:29.563] [INFO] default - response in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  "{}"
+[2019-06-26T23:16:29.563] [INFO] default - status code  in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  404
+[2019-06-26T23:16:29.563] [INFO] default - GET SErvice API TEST ENDS
+[2019-06-26T23:16:29.563] [INFO] default - ********************************************************************
+[2019-06-26T23:16:29.565] [INFO] default - POST Service API TEST Starts
+[2019-06-26T23:16:30.459] [INFO] default - url in post service is https://jsonplaceholder.typicode.com/posts
+[2019-06-26T23:16:30.459] [INFO] default - response in post service is {"userId":1,"title":"foo","body":"bar","id":101}
+[2019-06-26T23:16:30.459] [INFO] default - POST Service API TEST ENDS
+[2019-06-26T23:16:30.459] [INFO] default - ********************************************************************
+[2019-06-26T23:16:30.461] [INFO] default - PUT Service API TEST Starts
+[2019-06-26T23:16:31.381] [INFO] default - url in put service is https://jsonplaceholder.typicode.com/posts/1
+[2019-06-26T23:16:31.381] [INFO] default - response in put service is {"id":1,"userId":1,"title":"abc","body":"xyz"}
+[2019-06-26T23:16:31.381] [INFO] default - PUT Service API TEST ENDS
+[2019-06-26T23:16:31.381] [INFO] default - ********************************************************************
+[2019-06-26T23:16:31.382] [INFO] default - DELETE Service API TEST Starts
+[2019-06-26T23:16:32.076] [INFO] default - resonse in delete api is "{}"
+[2019-06-26T23:16:32.076] [INFO] default - DELETE Service API TEST ENDS
+[2019-06-26T23:16:32.076] [INFO] default - ********************************************************************
+[2021-09-05T01:15:13.768] [INFO] default - GET Service API TEST Starts
+[2021-09-05T01:15:14.145] [INFO] default - Number of Records in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  100
+[2021-09-05T01:15:14.151] [INFO] default -  verify the response schema 
+[2021-09-05T01:15:14.405] [INFO] default - status code in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  200
+[2021-09-05T01:15:14.659] [INFO] default - response in GET Service API when querying 1 record  with url  https://jsonplaceholder.typicode.com/posts/1 is  [{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]
+[2021-09-05T01:15:14.987] [INFO] default - response in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  "{}"
+[2021-09-05T01:15:14.988] [INFO] default - status code  in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  404
+[2021-09-05T01:15:14.988] [INFO] default - GET SErvice API TEST ENDS
+[2021-09-05T01:15:14.988] [INFO] default - ********************************************************************
+[2021-09-05T01:15:14.995] [INFO] default - POST Service API TEST Starts
+[2021-09-05T01:15:15.311] [INFO] default - url in post service is https://jsonplaceholder.typicode.com/posts
+[2021-09-05T01:15:15.311] [INFO] default - response in post service is {"userId":1,"title":"foo","body":"bar","id":101}
+[2021-09-05T01:15:15.311] [INFO] default - POST Service API TEST ENDS
+[2021-09-05T01:15:15.311] [INFO] default - ********************************************************************
+[2021-09-05T01:15:15.313] [INFO] default - PUT Service API TEST Starts
+[2021-09-05T01:15:15.615] [INFO] default - url in put service is https://jsonplaceholder.typicode.com/posts/1
+[2021-09-05T01:15:15.615] [INFO] default - response in put service is {"id":1,"userId":1,"title":"abc","body":"xyz"}
+[2021-09-05T01:15:15.615] [INFO] default - PUT Service API TEST ENDS
+[2021-09-05T01:15:15.615] [INFO] default - ********************************************************************
+[2021-09-05T01:15:15.617] [INFO] default - DELETE Service API TEST Starts
+[2021-09-05T01:15:15.917] [INFO] default - resonse in delete api is "{}"
+[2021-09-05T01:15:15.917] [INFO] default - DELETE Service API TEST ENDS
+[2021-09-05T01:15:15.917] [INFO] default - ********************************************************************
+[2021-09-05T01:15:26.602] [INFO] default - GET Service API TEST Starts
+[2021-09-05T01:15:26.986] [INFO] default - Number of Records in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  100
+[2021-09-05T01:15:26.989] [INFO] default -  verify the response schema 
+[2021-09-05T01:15:27.501] [INFO] default - status code in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  200
+[2021-09-05T01:15:27.741] [INFO] default - response in GET Service API when querying 1 record  with url  https://jsonplaceholder.typicode.com/posts/1 is  [{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]
+[2021-09-05T01:15:28.084] [INFO] default - response in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  "{}"
+[2021-09-05T01:15:28.084] [INFO] default - status code  in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  404
+[2021-09-05T01:15:28.084] [INFO] default - GET SErvice API TEST ENDS
+[2021-09-05T01:15:28.084] [INFO] default - ********************************************************************
+[2021-09-05T01:15:28.087] [INFO] default - POST Service API TEST Starts
+[2021-09-05T01:15:28.399] [INFO] default - url in post service is https://jsonplaceholder.typicode.com/posts
+[2021-09-05T01:15:28.399] [INFO] default - response in post service is {"userId":1,"title":"foo","body":"bar","id":101}
+[2021-09-05T01:15:28.399] [INFO] default - POST Service API TEST ENDS
+[2021-09-05T01:15:28.400] [INFO] default - ********************************************************************
+[2021-09-05T01:15:28.403] [INFO] default - PUT Service API TEST Starts
+[2021-09-05T01:15:28.704] [INFO] default - url in put service is https://jsonplaceholder.typicode.com/posts/1
+[2021-09-05T01:15:28.704] [INFO] default - response in put service is {"id":1,"userId":1,"title":"abc","body":"xyz"}
+[2021-09-05T01:15:28.704] [INFO] default - PUT Service API TEST ENDS
+[2021-09-05T01:15:28.704] [INFO] default - ********************************************************************
+[2021-09-05T01:15:28.706] [INFO] default - DELETE Service API TEST Starts
+[2021-09-05T01:15:29.008] [INFO] default - resonse in delete api is "{}"
+[2021-09-05T01:15:29.008] [INFO] default - DELETE Service API TEST ENDS
+[2021-09-05T01:15:29.008] [INFO] default - ********************************************************************
+[2021-09-05T01:19:36.780] [INFO] default - GET Service API TEST Starts
+[2021-09-05T01:19:37.277] [INFO] default - Number of Records in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  100
+[2021-09-05T01:19:37.281] [INFO] default -  verify the response schema 
+[2021-09-05T01:19:37.535] [INFO] default - status code in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  200
+[2021-09-05T01:19:37.807] [INFO] default - response in GET Service API when querying 1 record  with url  https://jsonplaceholder.typicode.com/posts/1 is  [{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]
+[2021-09-05T01:19:38.068] [INFO] default - response in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  "{}"
+[2021-09-05T01:19:38.068] [INFO] default - status code  in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  404
+[2021-09-05T01:19:38.068] [INFO] default - GET SErvice API TEST ENDS
+[2021-09-05T01:19:38.068] [INFO] default - ********************************************************************
+[2021-09-05T01:19:38.073] [INFO] default - POST Service API TEST Starts
+[2021-09-05T01:19:38.384] [INFO] default - url in post service is https://jsonplaceholder.typicode.com/posts
+[2021-09-05T01:19:38.384] [INFO] default - response in post service is {"userId":1,"title":"foo","body":"bar","id":101}
+[2021-09-05T01:19:38.384] [INFO] default - POST Service API TEST ENDS
+[2021-09-05T01:19:38.384] [INFO] default - ********************************************************************
+[2021-09-05T01:19:38.386] [INFO] default - PUT Service API TEST Starts
+[2021-09-05T01:19:38.693] [INFO] default - url in put service is https://jsonplaceholder.typicode.com/posts/1
+[2021-09-05T01:19:38.693] [INFO] default - response in put service is {"id":1,"userId":1,"title":"abc","body":"xyz"}
+[2021-09-05T01:19:38.693] [INFO] default - PUT Service API TEST ENDS
+[2021-09-05T01:19:38.693] [INFO] default - ********************************************************************
+[2021-09-05T01:19:38.694] [INFO] default - DELETE Service API TEST Starts
+[2021-09-05T01:19:38.987] [INFO] default - resonse in delete api is "{}"
+[2021-09-05T01:19:38.987] [INFO] default - DELETE Service API TEST ENDS
+[2021-09-05T01:19:38.987] [INFO] default - ********************************************************************
+[2021-09-05T01:23:29.198] [INFO] default - GET Service API TEST Starts
+[2021-09-05T01:23:29.536] [INFO] default - Number of Records in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  100
+[2021-09-05T01:23:29.540] [INFO] default -  verify the response schema 
+[2021-09-05T01:23:29.794] [INFO] default - status code in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  200
+[2021-09-05T01:23:30.037] [INFO] default - response in GET Service API when querying 1 record  with url  https://jsonplaceholder.typicode.com/posts/1 is  [{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]
+[2021-09-05T01:23:30.309] [INFO] default - response in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  "{}"
+[2021-09-05T01:23:30.309] [INFO] default - status code  in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  404
+[2021-09-05T01:23:30.309] [INFO] default - GET SErvice API TEST ENDS
+[2021-09-05T01:23:30.309] [INFO] default - ********************************************************************
+[2021-09-05T01:23:30.311] [INFO] default - POST Service API TEST Starts
+[2021-09-05T01:23:30.654] [INFO] default - url in post service is https://jsonplaceholder.typicode.com/posts
+[2021-09-05T01:23:30.654] [INFO] default - response in post service is {"userId":1,"title":"foo","body":"bar","id":101}
+[2021-09-05T01:23:30.655] [INFO] default - POST Service API TEST ENDS
+[2021-09-05T01:23:30.655] [INFO] default - ********************************************************************
+[2021-09-05T01:23:30.658] [INFO] default - PUT Service API TEST Starts
+[2021-09-05T01:23:30.961] [INFO] default - url in put service is https://jsonplaceholder.typicode.com/posts/1
+[2021-09-05T01:23:30.961] [INFO] default - response in put service is {"id":1,"userId":1,"title":"abc","body":"xyz"}
+[2021-09-05T01:23:30.961] [INFO] default - PUT Service API TEST ENDS
+[2021-09-05T01:23:30.962] [INFO] default - ********************************************************************
+[2021-09-05T01:23:30.963] [INFO] default - DELETE Service API TEST Starts
+[2021-09-05T01:23:31.296] [INFO] default - resonse in delete api is "{}"
+[2021-09-05T01:23:31.296] [INFO] default - DELETE Service API TEST ENDS
+[2021-09-05T01:23:31.296] [INFO] default - ********************************************************************
+[2021-09-05T01:41:56.363] [INFO] default - GET Service API TEST Starts
+[2021-09-05T01:41:56.797] [INFO] default - Number of Records in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  100
+[2021-09-05T01:41:56.801] [INFO] default -  verify the response schema 
+[2021-09-05T01:41:57.042] [INFO] default - status code in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  200
+[2021-09-05T01:41:57.278] [INFO] default - response in GET Service API when querying 1 record  with url  https://jsonplaceholder.typicode.com/posts/1 is  [{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]
+[2021-09-05T01:41:57.515] [INFO] default - response in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  "{}"
+[2021-09-05T01:41:57.516] [INFO] default - status code  in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  404
+[2021-09-05T01:41:57.516] [INFO] default - GET SErvice API TEST ENDS
+[2021-09-05T01:41:57.516] [INFO] default - ********************************************************************
+[2021-09-05T01:41:57.518] [INFO] default - POST Service API TEST Starts
+[2021-09-05T01:41:57.820] [INFO] default - url in post service is https://jsonplaceholder.typicode.com/posts
+[2021-09-05T01:41:57.821] [INFO] default - response in post service is {"userId":1,"title":"foo","body":"bar","id":101}
+[2021-09-05T01:41:57.821] [INFO] default - POST Service API TEST ENDS
+[2021-09-05T01:41:57.821] [INFO] default - ********************************************************************
+[2021-09-05T01:41:57.824] [INFO] default - PUT Service API TEST Starts
+[2021-09-05T01:41:58.179] [INFO] default - url in put service is https://jsonplaceholder.typicode.com/posts/1
+[2021-09-05T01:41:58.179] [INFO] default - response in put service is {"id":1,"userId":1,"title":"abc","body":"xyz"}
+[2021-09-05T01:41:58.179] [INFO] default - PUT Service API TEST ENDS
+[2021-09-05T01:41:58.179] [INFO] default - ********************************************************************
+[2021-09-05T01:41:58.181] [INFO] default - BORRAR INICIOS DE PRUEBA DE API DE SERVICIO
+[2021-09-05T01:41:58.474] [INFO] default - response del api delete es "{}"
+[2021-09-05T01:41:58.474] [INFO] default - BORRAR FIN DE PRUEBA DE API DE SERVICIO
+[2021-09-05T01:41:58.475] [INFO] default - ********************************************************************
+[2021-09-05T01:59:50.662] [INFO] default - GET Service API TEST Starts
+[2021-09-05T01:59:50.671] [INFO] default -  verify the response schema 
+[2021-09-05T01:59:50.677] [INFO] default - POST Service API TEST Starts
+[2021-09-05T01:59:51.238] [INFO] default - PUT Service API TEST Starts
+[2021-09-05T01:59:51.240] [INFO] default - BORRAR INICIOS DE PRUEBA DE API DE SERVICIO
+[2021-09-05T01:59:51.241] [ERROR] default - Error en DELETE Service API Error: Invalid URI "undefined/posts/1"
+    at Request.init (C:\Users\ARISTIDES\api_automation\node_modules\request\request.js:273:31)
+    at new Request (C:\Users\ARISTIDES\api_automation\node_modules\request\request.js:127:8)
+    at request (C:\Users\ARISTIDES\api_automation\node_modules\request\index.js:53:10)
+    at Object.requestQuery (C:\Users\ARISTIDES\api_automation\utils\httpServer.js:44:9)
+    at Context.<anonymous> (C:\Users\ARISTIDES\api_automation\test\DELETE\deleteService.js:34:14)
+    at callFnAsync (C:\Users\ARISTIDES\api_automation\node_modules\mocha\lib\runnable.js:371:21)
+    at Test.Runnable.run (C:\Users\ARISTIDES\api_automation\node_modules\mocha\lib\runnable.js:318:7)
+    at Runner.runTest (C:\Users\ARISTIDES\api_automation\node_modules\mocha\lib\runner.js:443:10)
+    at C:\Users\ARISTIDES\api_automation\node_modules\mocha\lib\runner.js:549:12
+    at next (C:\Users\ARISTIDES\api_automation\node_modules\mocha\lib\runner.js:361:14)
+    at C:\Users\ARISTIDES\api_automation\node_modules\mocha\lib\runner.js:371:7
+    at next (C:\Users\ARISTIDES\api_automation\node_modules\mocha\lib\runner.js:295:14)
+    at Immediate._onImmediate (C:\Users\ARISTIDES\api_automation\node_modules\mocha\lib\runner.js:339:5)
+    at processImmediate (internal/timers.js:464:21)
+[2021-09-05T02:00:48.572] [INFO] default - GET Service API TEST Starts
+[2021-09-05T02:00:48.950] [INFO] default - Number of Records in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  100
+[2021-09-05T02:00:48.954] [INFO] default -  verify the response schema 
+[2021-09-05T02:00:49.188] [INFO] default - status code in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  200
+[2021-09-05T02:00:49.419] [INFO] default - response in GET Service API when querying 1 record  with url  https://jsonplaceholder.typicode.com/posts/1 is  [{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]
+[2021-09-05T02:00:49.673] [INFO] default - response in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  "{}"
+[2021-09-05T02:00:49.673] [INFO] default - status code  in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  404
+[2021-09-05T02:00:49.673] [INFO] default - GET SErvice API TEST ENDS
+[2021-09-05T02:00:49.673] [INFO] default - ********************************************************************
+[2021-09-05T02:00:49.675] [INFO] default - POST Service API TEST Starts
+[2021-09-05T02:00:49.983] [INFO] default - url in post service is https://jsonplaceholder.typicode.com/posts
+[2021-09-05T02:00:49.983] [INFO] default - response in post service is {"userId":1,"title":"foo","body":"bar","id":101}
+[2021-09-05T02:00:49.984] [INFO] default - POST Service API TEST ENDS
+[2021-09-05T02:00:49.984] [INFO] default - ********************************************************************
+[2021-09-05T02:00:49.987] [INFO] default - PUT Service API TEST Starts
+[2021-09-05T02:00:50.286] [INFO] default - url in put service is https://jsonplaceholder.typicode.com/posts/1
+[2021-09-05T02:00:50.286] [INFO] default - response in put service is {"id":1,"userId":1,"title":"abc","body":"xyz"}
+[2021-09-05T02:00:50.286] [INFO] default - PUT Service API TEST ENDS
+[2021-09-05T02:00:50.286] [INFO] default - ********************************************************************
+[2021-09-05T02:00:50.288] [INFO] default - BORRAR INICIOS DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:00:50.595] [INFO] default - response del api delete es "{}"
+[2021-09-05T02:00:50.596] [INFO] default - BORRAR FIN DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:00:50.596] [INFO] default - ********************************************************************
+[2021-09-05T02:04:43.825] [INFO] default - GET Service API TEST Starts
+[2021-09-05T02:04:44.134] [INFO] default - Number of Records in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  100
+[2021-09-05T02:04:44.139] [INFO] default -  verify the response schema 
+[2021-09-05T02:04:44.398] [INFO] default - status code in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  200
+[2021-09-05T02:04:44.676] [INFO] default - response in GET Service API when querying 1 record  with url  https://jsonplaceholder.typicode.com/posts/1 is  [{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]
+[2021-09-05T02:04:45.004] [INFO] default - response in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  "{}"
+[2021-09-05T02:04:45.004] [INFO] default - status code  in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  404
+[2021-09-05T02:04:45.004] [INFO] default - GET SErvice API TEST ENDS
+[2021-09-05T02:04:45.004] [INFO] default - ********************************************************************
+[2021-09-05T02:04:45.006] [INFO] default - POST Service API TEST Starts
+[2021-09-05T02:04:45.324] [INFO] default - url in post service is https://jsonplaceholder.typicode.com/posts
+[2021-09-05T02:04:45.324] [INFO] default - response in post service is {"userId":1,"title":"foo","body":"bar","id":101}
+[2021-09-05T02:04:45.324] [INFO] default - POST Service API TEST ENDS
+[2021-09-05T02:04:45.325] [INFO] default - ********************************************************************
+[2021-09-05T02:04:45.331] [INFO] default - PUT Service API TEST Starts
+[2021-09-05T02:04:45.633] [INFO] default - url in put service is https://jsonplaceholder.typicode.com/posts/1
+[2021-09-05T02:04:45.633] [INFO] default - response in put service is {"id":1,"userId":1,"title":"abc","body":"xyz"}
+[2021-09-05T02:04:45.633] [INFO] default - PUT Service API TEST ENDS
+[2021-09-05T02:04:45.633] [INFO] default - ********************************************************************
+[2021-09-05T02:04:45.635] [INFO] default - BORRAR INICIOS DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:04:45.940] [INFO] default - response del api delete es "{}"
+[2021-09-05T02:04:45.941] [INFO] default - BORRAR FIN DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:04:45.941] [INFO] default - ********************************************************************
+[2021-09-05T02:08:51.348] [INFO] default - GET Service API TEST Starts
+[2021-09-05T02:08:51.738] [INFO] default - Number of Records in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  100
+[2021-09-05T02:08:51.741] [INFO] default -  verify the response schema 
+[2021-09-05T02:08:52.041] [INFO] default - status code in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  200
+[2021-09-05T02:08:52.279] [INFO] default - response in GET Service API when querying 1 record  with url  https://jsonplaceholder.typicode.com/posts/1 is  [{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]
+[2021-09-05T02:08:52.536] [INFO] default - response in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  "{}"
+[2021-09-05T02:08:52.536] [INFO] default - status code  in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  404
+[2021-09-05T02:08:52.536] [INFO] default - GET SErvice API TEST ENDS
+[2021-09-05T02:08:52.536] [INFO] default - ********************************************************************
+[2021-09-05T02:08:52.538] [INFO] default - POST Service API TEST Starts
+[2021-09-05T02:08:52.827] [INFO] default - url in post service is https://jsonplaceholder.typicode.com/posts
+[2021-09-05T02:08:52.827] [INFO] default - response in post service is {"userId":1,"title":"foo","body":"bar","id":101}
+[2021-09-05T02:08:52.827] [INFO] default - POST Service API TEST ENDS
+[2021-09-05T02:08:52.827] [INFO] default - ********************************************************************
+[2021-09-05T02:08:52.829] [INFO] default - PUT Service API TEST Starts
+[2021-09-05T02:08:53.128] [INFO] default - url in put service is https://jsonplaceholder.typicode.com/posts/1
+[2021-09-05T02:08:53.128] [INFO] default - response in put service is {"id":1,"userId":1,"title":"abc","body":"xyz"}
+[2021-09-05T02:08:53.128] [INFO] default - PUT Service API TEST ENDS
+[2021-09-05T02:08:53.128] [INFO] default - ********************************************************************
+[2021-09-05T02:08:53.129] [INFO] default - BORRAR INICIOS DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:08:53.438] [INFO] default - response del api delete es "{}"
+[2021-09-05T02:08:53.438] [INFO] default - BORRAR FIN DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:08:53.438] [INFO] default - ********************************************************************
+[2021-09-05T02:11:12.036] [INFO] default - GET Service API TEST Starts
+[2021-09-05T02:11:12.334] [INFO] default - Number of Records in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  100
+[2021-09-05T02:11:12.338] [INFO] default -  verify the response schema 
+[2021-09-05T02:11:12.600] [INFO] default - status code in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  200
+[2021-09-05T02:11:12.833] [INFO] default - response in GET Service API when querying 1 record  with url  https://jsonplaceholder.typicode.com/posts/1 is  [{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]
+[2021-09-05T02:11:13.068] [INFO] default - response in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  "{}"
+[2021-09-05T02:11:13.069] [INFO] default - status code  in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  404
+[2021-09-05T02:11:13.069] [INFO] default - GET SErvice API TEST ENDS
+[2021-09-05T02:11:13.069] [INFO] default - ********************************************************************
+[2021-09-05T02:11:13.071] [INFO] default - POST Service API TEST Starts
+[2021-09-05T02:11:13.579] [INFO] default - PUT Service API TEST Starts
+[2021-09-05T02:11:13.898] [INFO] default - url in put service is https://jsonplaceholder.typicode.com/posts/1
+[2021-09-05T02:11:13.898] [INFO] default - response in put service is {"id":1,"userId":1,"title":"abc","body":"xyz"}
+[2021-09-05T02:11:13.898] [INFO] default - PUT Service API TEST ENDS
+[2021-09-05T02:11:13.898] [INFO] default - ********************************************************************
+[2021-09-05T02:11:13.900] [INFO] default - BORRAR INICIOS DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:11:14.198] [INFO] default - response del api delete es "{}"
+[2021-09-05T02:11:14.198] [INFO] default - BORRAR FIN DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:11:14.198] [INFO] default - ********************************************************************
+[2021-09-05T02:15:48.522] [INFO] default - GET Service API TEST Starts
+[2021-09-05T02:15:48.913] [INFO] default - Number of Records in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  100
+[2021-09-05T02:15:48.916] [INFO] default -  verify the response schema 
+[2021-09-05T02:15:49.192] [INFO] default - status code in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  200
+[2021-09-05T02:15:49.539] [INFO] default - response in GET Service API when querying 1 record  with url  https://jsonplaceholder.typicode.com/posts/1 is  [{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]
+[2021-09-05T02:15:49.916] [INFO] default - response in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  "{}"
+[2021-09-05T02:15:49.916] [INFO] default - status code  in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  404
+[2021-09-05T02:15:49.916] [INFO] default - GET SErvice API TEST ENDS
+[2021-09-05T02:15:49.916] [INFO] default - ********************************************************************
+[2021-09-05T02:15:49.918] [INFO] default - POST Service API TEST Starts
+[2021-09-05T02:15:50.212] [INFO] default - url in post service is https://jsonplaceholder.typicode.com/posts
+[2021-09-05T02:15:50.212] [INFO] default - response in post service is {"userId":1,"title":"foo","body":"bar","id":101}
+[2021-09-05T02:15:50.224] [INFO] default - PUT Service API TEST Starts
+[2021-09-05T02:15:50.531] [INFO] default - url in put service is https://jsonplaceholder.typicode.com/posts/1
+[2021-09-05T02:15:50.531] [INFO] default - response in put service is {"id":1,"userId":1,"title":"abc","body":"xyz"}
+[2021-09-05T02:15:50.531] [INFO] default - PUT Service API TEST ENDS
+[2021-09-05T02:15:50.531] [INFO] default - ********************************************************************
+[2021-09-05T02:15:50.534] [INFO] default - BORRAR INICIOS DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:15:50.844] [INFO] default - response del api delete es "{}"
+[2021-09-05T02:15:50.844] [INFO] default - BORRAR FIN DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:15:50.844] [INFO] default - ********************************************************************
+[2021-09-05T02:16:17.065] [INFO] default - GET Service API TEST Starts
+[2021-09-05T02:16:17.354] [INFO] default - Number of Records in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  100
+[2021-09-05T02:16:17.359] [INFO] default -  verify the response schema 
+[2021-09-05T02:16:17.599] [INFO] default - status code in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  200
+[2021-09-05T02:16:17.846] [INFO] default - response in GET Service API when querying 1 record  with url  https://jsonplaceholder.typicode.com/posts/1 is  [{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]
+[2021-09-05T02:16:18.093] [INFO] default - response in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  "{}"
+[2021-09-05T02:16:18.093] [INFO] default - status code  in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  404
+[2021-09-05T02:16:18.093] [INFO] default - GET SErvice API TEST ENDS
+[2021-09-05T02:16:18.093] [INFO] default - ********************************************************************
+[2021-09-05T02:16:18.095] [INFO] default - POST Service API TEST Starts
+[2021-09-05T02:16:18.409] [INFO] default - url in post service is https://jsonplaceholder.typicode.com/posts
+[2021-09-05T02:16:18.409] [INFO] default - response in post service is {"userId":1,"title":"foo","body":"bar","id":101}
+[2021-09-05T02:16:18.409] [INFO] default - POST Service API TEST ENDS
+[2021-09-05T02:16:18.409] [INFO] default - ********************************************************************
+[2021-09-05T02:16:18.412] [INFO] default - PUT Service API TEST Starts
+[2021-09-05T02:16:18.724] [INFO] default - url in put service is https://jsonplaceholder.typicode.com/posts/1
+[2021-09-05T02:16:18.724] [INFO] default - response in put service is {"id":1,"userId":1,"title":"abc","body":"xyz"}
+[2021-09-05T02:16:18.725] [INFO] default - PUT Service API TEST ENDS
+[2021-09-05T02:16:18.725] [INFO] default - ********************************************************************
+[2021-09-05T02:16:18.730] [INFO] default - BORRAR INICIOS DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:16:19.072] [INFO] default - response del api delete es "{}"
+[2021-09-05T02:16:19.072] [INFO] default - BORRAR FIN DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:16:19.072] [INFO] default - ********************************************************************
+[2021-09-05T02:16:59.791] [INFO] default - GET Service API TEST Starts
+[2021-09-05T02:17:00.123] [INFO] default - Number of Records in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  100
+[2021-09-05T02:17:00.127] [INFO] default -  verify the response schema 
+[2021-09-05T02:17:00.396] [INFO] default - status code in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  200
+[2021-09-05T02:17:01.116] [INFO] default - response in GET Service API when querying 1 record  with url  https://jsonplaceholder.typicode.com/posts/1 is  [{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]
+[2021-09-05T02:17:01.382] [INFO] default - response in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  "{}"
+[2021-09-05T02:17:01.382] [INFO] default - status code  in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  404
+[2021-09-05T02:17:01.382] [INFO] default - GET SErvice API TEST ENDS
+[2021-09-05T02:17:01.382] [INFO] default - ********************************************************************
+[2021-09-05T02:17:01.388] [INFO] default - POST Service API TEST Starts
+[2021-09-05T02:17:01.715] [INFO] default - url in post service is https://jsonplaceholder.typicode.com/posts
+[2021-09-05T02:17:01.715] [INFO] default - response in post service is {"userId":1,"title":"foo","body":"bar","id":101}
+[2021-09-05T02:17:01.716] [INFO] default - POST Service API TEST ENDS
+[2021-09-05T02:17:01.716] [INFO] default - ********************************************************************
+[2021-09-05T02:17:01.721] [INFO] default - PUT Service API TEST Starts
+[2021-09-05T02:17:02.017] [INFO] default - url in put service is https://jsonplaceholder.typicode.com/posts/1
+[2021-09-05T02:17:02.017] [INFO] default - response in put service is {"id":1,"userId":1,"title":"abc","body":"xyz"}
+[2021-09-05T02:17:02.017] [INFO] default - PUT Service API TEST ENDS
+[2021-09-05T02:17:02.018] [INFO] default - ********************************************************************
+[2021-09-05T02:17:02.023] [INFO] default - BORRAR INICIOS DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:17:02.324] [INFO] default - response del api delete es "{}"
+[2021-09-05T02:17:02.325] [INFO] default - BORRAR FIN DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:17:02.325] [INFO] default - ********************************************************************
+[2021-09-05T02:24:23.056] [INFO] default - GET Service API TEST Starts
+[2021-09-05T02:24:23.481] [INFO] default - Number of Records in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  100
+[2021-09-05T02:24:23.485] [INFO] default -  verify the response schema 
+[2021-09-05T02:24:23.722] [INFO] default - status code in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  200
+[2021-09-05T02:24:23.990] [INFO] default - response in GET Service API when querying 1 record  with url  https://jsonplaceholder.typicode.com/posts/1 is  [{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]
+[2021-09-05T02:24:24.235] [INFO] default - response in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  "{}"
+[2021-09-05T02:24:24.235] [INFO] default - status code  in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  404
+[2021-09-05T02:24:24.235] [INFO] default - GET SErvice API TEST ENDS
+[2021-09-05T02:24:24.235] [INFO] default - ********************************************************************
+[2021-09-05T02:24:24.240] [INFO] default - POST Service API TEST Starts
+[2021-09-05T02:24:24.540] [INFO] default - url in post service is https://jsonplaceholder.typicode.com/posts
+[2021-09-05T02:24:24.541] [INFO] default - response in post service is {"userId":1,"title":"foo","body":"bar","id":101}
+[2021-09-05T02:24:24.542] [INFO] default - POST Service API TEST ENDS
+[2021-09-05T02:24:24.542] [INFO] default - ********************************************************************
+[2021-09-05T02:24:24.544] [INFO] default - PUT Service API TEST Starts
+[2021-09-05T02:24:24.837] [INFO] default - url in put service is https://jsonplaceholder.typicode.com/posts/1
+[2021-09-05T02:24:24.837] [INFO] default - response in put service is {"id":1,"userId":1,"title":"abc","body":"xyz"}
+[2021-09-05T02:24:24.837] [INFO] default - PUT Service API TEST ENDS
+[2021-09-05T02:24:24.837] [INFO] default - ********************************************************************
+[2021-09-05T02:24:24.839] [INFO] default - BORRAR INICIOS DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:24:25.137] [INFO] default - response del api delete es "{}"
+[2021-09-05T02:24:25.137] [INFO] default - BORRAR FIN DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:24:25.137] [INFO] default - ********************************************************************
+[2021-09-05T02:27:11.092] [INFO] default - GET Service API TEST Starts
+[2021-09-05T02:27:11.409] [INFO] default - Number of Records in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  100
+[2021-09-05T02:27:11.413] [INFO] default -  verify the response schema 
+[2021-09-05T02:27:11.667] [INFO] default - status code in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  200
+[2021-09-05T02:27:11.929] [INFO] default - response in GET Service API when querying 1 record  with url  https://jsonplaceholder.typicode.com/posts/1 is  [{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]
+[2021-09-05T02:27:12.162] [INFO] default - response in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  "{}"
+[2021-09-05T02:27:12.162] [INFO] default - status code  in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  404
+[2021-09-05T02:27:12.162] [INFO] default - GET SErvice API TEST ENDS
+[2021-09-05T02:27:12.162] [INFO] default - ********************************************************************
+[2021-09-05T02:27:12.164] [INFO] default - POST Service API TEST Starts
+[2021-09-05T02:27:12.455] [INFO] default - url in post service is https://jsonplaceholder.typicode.com/posts
+[2021-09-05T02:27:12.455] [INFO] default - response in post service is {"userId":1,"title":"foo","body":"bar","id":101}
+[2021-09-05T02:27:12.455] [INFO] default - POST Service API TEST ENDS
+[2021-09-05T02:27:12.455] [INFO] default - ********************************************************************
+[2021-09-05T02:27:12.457] [INFO] default - PUT Service API TEST Starts
+[2021-09-05T02:27:12.742] [INFO] default - url in put service is https://jsonplaceholder.typicode.com/posts/1
+[2021-09-05T02:27:12.742] [INFO] default - response in put service is {"id":1,"userId":1,"title":"abc","body":"xyz"}
+[2021-09-05T02:27:12.742] [INFO] default - PUT Service API TEST ENDS
+[2021-09-05T02:27:12.742] [INFO] default - ********************************************************************
+[2021-09-05T02:27:12.744] [INFO] default - BORRAR INICIOS DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:27:13.036] [INFO] default - response del api delete es "{}"
+[2021-09-05T02:27:13.036] [INFO] default - BORRAR FIN DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:27:13.036] [INFO] default - ********************************************************************
+[2021-09-05T02:28:53.326] [INFO] default - GET Service API TEST Starts
+[2021-09-05T02:28:53.632] [INFO] default - Number of Records in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  100
+[2021-09-05T02:28:53.636] [INFO] default -  verify the response schema 
+[2021-09-05T02:28:53.895] [INFO] default - status code in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  200
+[2021-09-05T02:28:54.138] [INFO] default - response in GET Service API when querying 1 record  with url  https://jsonplaceholder.typicode.com/posts/1 is  [{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]
+[2021-09-05T02:28:54.380] [INFO] default - response in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  "{}"
+[2021-09-05T02:28:54.381] [INFO] default - status code  in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  404
+[2021-09-05T02:28:54.381] [INFO] default - GET SErvice API TEST ENDS
+[2021-09-05T02:28:54.381] [INFO] default - ********************************************************************
+[2021-09-05T02:28:54.383] [INFO] default - POST Service API TEST Starts
+[2021-09-05T02:28:54.670] [INFO] default - url in post service is https://jsonplaceholder.typicode.com/posts
+[2021-09-05T02:28:54.670] [INFO] default - response in post service is {"userId":1,"title":"foo","body":"bar","id":101}
+[2021-09-05T02:28:54.671] [INFO] default - POST Service API TEST ENDS
+[2021-09-05T02:28:54.671] [INFO] default - ********************************************************************
+[2021-09-05T02:28:54.677] [INFO] default - PUT Service API TEST Starts
+[2021-09-05T02:28:54.974] [INFO] default - url in put service is https://jsonplaceholder.typicode.com/posts/1
+[2021-09-05T02:28:54.974] [INFO] default - response in put service is {"id":1,"userId":1,"title":"abc","body":"xyz"}
+[2021-09-05T02:28:54.974] [INFO] default - PUT Service API TEST ENDS
+[2021-09-05T02:28:54.974] [INFO] default - ********************************************************************
+[2021-09-05T02:28:54.989] [INFO] default - BORRAR INICIOS DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:28:55.285] [INFO] default - response del api delete es "{}"
+[2021-09-05T02:28:55.286] [INFO] default - BORRAR FIN DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:28:55.286] [INFO] default - ********************************************************************
+[2021-09-05T02:31:16.361] [INFO] default - GET Service API TEST Starts
+[2021-09-05T02:31:16.752] [INFO] default - Number of Records in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  100
+[2021-09-05T02:31:16.755] [INFO] default -  verify the response schema 
+[2021-09-05T02:31:16.996] [INFO] default - status code in GET Service API with url  https://jsonplaceholder.typicode.com/posts is  200
+[2021-09-05T02:31:17.237] [INFO] default - response in GET Service API when querying 1 record  with url  https://jsonplaceholder.typicode.com/posts/1 is  [{"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}]
+[2021-09-05T02:31:17.482] [INFO] default - response in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  "{}"
+[2021-09-05T02:31:17.482] [INFO] default - status code  in GET Service API with invalid url  https://jsonplaceholder.typicode.com/posts/invalidPost is  404
+[2021-09-05T02:31:17.483] [INFO] default - GET SErvice API TEST ENDS
+[2021-09-05T02:31:17.483] [INFO] default - ********************************************************************
+[2021-09-05T02:31:17.489] [INFO] default - POST Service API TEST Starts
+[2021-09-05T02:31:17.820] [INFO] default - url in post service is https://jsonplaceholder.typicode.com/posts
+[2021-09-05T02:31:17.820] [INFO] default - response in post service is {"userId":1,"title":"foo","body":"bar","id":101}
+[2021-09-05T02:31:17.821] [INFO] default - POST Service API TEST ENDS
+[2021-09-05T02:31:17.821] [INFO] default - ********************************************************************
+[2021-09-05T02:31:17.823] [INFO] default - PUT Service API TEST Starts
+[2021-09-05T02:31:18.108] [INFO] default - url in put service is https://jsonplaceholder.typicode.com/posts/1
+[2021-09-05T02:31:18.108] [INFO] default - response in put service is {"id":1,"userId":1,"title":"abc","body":"xyz"}
+[2021-09-05T02:31:18.108] [INFO] default - PUT Service API TEST ENDS
+[2021-09-05T02:31:18.108] [INFO] default - ********************************************************************
+[2021-09-05T02:31:18.109] [INFO] default - BORRAR INICIOS DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:31:18.415] [INFO] default - response del api delete es "{}"
+[2021-09-05T02:31:18.415] [INFO] default - BORRAR FIN DE PRUEBA DE API DE SERVICIO
+[2021-09-05T02:31:18.416] [INFO] default - ********************************************************************

@@ -1,0 +1,15 @@
+[2021-09-05T01:59:51.241] [ERROR] default - Error en DELETE Service API Error: Invalid URI "undefined/posts/1"
+    at Request.init (C:\Users\ARISTIDES\api_automation\node_modules\request\request.js:273:31)
+    at new Request (C:\Users\ARISTIDES\api_automation\node_modules\request\request.js:127:8)
+    at request (C:\Users\ARISTIDES\api_automation\node_modules\request\index.js:53:10)
+    at Object.requestQuery (C:\Users\ARISTIDES\api_automation\utils\httpServer.js:44:9)
+    at Context.<anonymous> (C:\Users\ARISTIDES\api_automation\test\DELETE\deleteService.js:34:14)
+    at callFnAsync (C:\Users\ARISTIDES\api_automation\node_modules\mocha\lib\runnable.js:371:21)
+    at Test.Runnable.run (C:\Users\ARISTIDES\api_automation\node_modules\mocha\lib\runnable.js:318:7)
+    at Runner.runTest (C:\Users\ARISTIDES\api_automation\node_modules\mocha\lib\runner.js:443:10)
+    at C:\Users\ARISTIDES\api_automation\node_modules\mocha\lib\runner.js:549:12
+    at next (C:\Users\ARISTIDES\api_automation\node_modules\mocha\lib\runner.js:361:14)
+    at C:\Users\ARISTIDES\api_automation\node_modules\mocha\lib\runner.js:371:7
+    at next (C:\Users\ARISTIDES\api_automation\node_modules\mocha\lib\runner.js:295:14)
+    at Immediate._onImmediate (C:\Users\ARISTIDES\api_automation\node_modules\mocha\lib\runner.js:339:5)
+    at processImmediate (internal/timers.js:464:21)

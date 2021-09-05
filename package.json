@@ -1,0 +1,24 @@
+{
+  "name": "api_automation",
+  "version": "1.0.0",
+  "description": "API Automation",
+  "main": "test/main.spec.js",
+  "author": "Simon",
+  "license": "ISC",
+  "dependencies": {
+    "chai-json-schema-ajv": "^5.0.0",
+    "faker": "^4.1.0",
+    "log4js": "^4.4.0",
+    "mochawesome": "^3.0.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.5.3",
+    "npm": "^6.4.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
